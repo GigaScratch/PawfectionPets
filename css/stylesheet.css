@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 10px 10px;
+    padding: 0;
+    width: fit-content;
+    overflow: hidden;
+    background-color: #f6cb9f;
+    box-shadow: 7px 7px #dba770;
+}
+  
+li {
+    float: left;
+    border-right: 1px dashed black;
+}
+
+li:last-child {
+      border-right: none;
+}
+  
+li a, .dropbtn {
+    display: block;
+    color: black;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold   ;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ba8043;
+    color: white;
+    text-decoration: none;
+    
+}
+
+ 
