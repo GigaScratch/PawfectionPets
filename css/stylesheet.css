@@ -1,45 +1,196 @@
+.wrapper {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background: url(../images/Background.jpg);   
 }
 
-
-
 .container {
    margin-top: 25px;
-   margin-left: 50px;
-   
+   display: block;
 }
-
 
 .logobox {
     filter: drop-shadow(7px 7px #dba770);
-    max-width: 220px;
+    max-width: 230px;
     float:left;
     border: 2px solid #f6cb9f;
     overflow: auto;    
 }
 
-
-.titlebox {
+.titlebar {
     background-color: #f6cb9f; 
     box-shadow: 7px 7px #dba770;
     padding: 15px 20px;
+    padding-bottom: 25px;
     text-align: center;
     width: 75%;
     float: right;
     
+}
+
+nav {
+    background-color: #f6cb9f;
+    box-shadow: 7px 7px #dba770;
+    text-align: center;
+    padding-right: 15px;
+    margin-top: 30px;
+    float: right;
+    width: 75%;
+}
+nav li {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 13px;
+    cursor: pointer;
     
 }
+nav li:hover {
+    background-color: #dba770;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: left;
+    display: none;
+}
+.dropdown-content li {
+    background-color: pink;
+    width: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 a {
     font-weight: bold;
     font-size: 30px;
     color: black;
+    padding: 25px;
 }
 
 a:hover {
     color: white;
     text-decoration: none;
     text-shadow: 5px 3px #dba770;
-
 }
 
+
+.pages p{
+    background-color: #f6cb9f;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 7px 7px #dba770; 
+}
+.pages ul {
+    list-style-type: none;
+    background-color: #f6cb9f;
+    box-shadow: 7px 7px #dba770;
+    width: 75%;   
+    margin-top: 25px;
+    display: inline-block;
+    
+}
+.pages li {
+    display: inline-block;
+    padding: 25px;
+    border-right: 1px dashed black;
+    
+}
+.pages li a{
+    padding: 25px;
+    font-size: 18px;
+}
+.pages li a:hover{
+    background-color: #dba770;
+}
+.pages li:last-child{
+    border-right: none;
+}
+.petinfo {
+    background-color: #f6cb9f;
+    box-shadow: 7px 7px #dba770;
+    margin-top: 50px;
+    padding: 50px 75px;
+    height: auto;
+    
+}
+.petinfo p{
+    text-align: left;
+    margin-right: 10%;
+    max-width: 400px;
+    padding-bottom: 25px;
+}
+.petinfo img {
+    float: right;
+    border: 5px solid #dba770;
+}
+.petinfo a {
+    font-size: 18px;
+    font-weight: normal;
+    padding: unset;
+    text-decoration: underline;
+}
+.petinfo a:hover {
+    text-shadow: none;
+}
+.mummy {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.lilone {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.liltwo {
+    position: absolute;
+    top: 350px;
+    left: 60%;
+}
+.lilthwee {
+    position: absolute;
+    top: 325px;
+    left: 60%;
+}
+
+.contact {
+    background-color: #f6cb9f;
+    padding: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 7px 7px #dba770; 
+}
+.vacancies {
+    background-color: #f6cb9f;
+    padding: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 7px 7px #dba770; 
+    margin-top: 500px;
+}
+.info {
+    float: left;
+    background-color: #f6cb9f;
+    box-shadow: 7px 7px #dba770;
+    text-align: left;
+    margin-top: 50px;
+    padding: 25px 50px;
+    
+    
+}
