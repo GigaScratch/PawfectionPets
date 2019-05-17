@@ -1,38 +1,45 @@
-ul {
-    list-style-type: none;
-    margin: 10px 10px;
-    display: table;
-    width: fit-content;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f6cb9f;
-    box-shadow: 7px 7px #dba770;
-}
-  
-li {
-    float: left;
-    border-right: 1px dashed black;
+body {
+    background: url(../images/Background.jpg);   
 }
 
-li:last-child {
-      border-right: none;
+
+
+.container {
+   margin-top: 25px;
+   margin-left: 50px;
+   
 }
-  
-li a, .dropbtn {
-    display: block;
-    color: black;   
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 25px;
+
+
+.logobox {
+    filter: drop-shadow(7px 7px #dba770);
+    max-width: 220px;
+    float:left;
+    border: 2px solid #f6cb9f;
+    overflow: auto;    
+}
+
+
+.titlebox {
+    background-color: #f6cb9f; 
+    box-shadow: 7px 7px #dba770;
+    padding: 15px 20px;
     text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-}
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #ba8043;
-    color: white;
-    text-decoration: none;
+    width: 75%;
+    float: right;
+    
     
 }
+a {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
 
- 
+a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 5px 3px #dba770;
+
+}
+
